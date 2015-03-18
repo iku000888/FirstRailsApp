@@ -1,6 +1,6 @@
 Blog::Application.routes.draw do
   get "welcome/index"
-
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -40,7 +40,7 @@ Blog::Application.routes.draw do
   #       get 'recent', :on => :collection
   #     end
   #   end
-
+  resources :articles
   # Sample resource route within a namespace:
   #   namespace :admin do
   #     # Directs /admin/products/* to Admin::ProductsController
