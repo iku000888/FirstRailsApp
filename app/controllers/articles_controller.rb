@@ -1,11 +1,7 @@
 class ArticlesController < ApplicationController
    def new
-   end
-<<<<<<< HEAD
-=======
-   
+   end 
    def create
       render text: params[:article].inspect
    end
->>>>>>> LayingDownGroundWork
 end
