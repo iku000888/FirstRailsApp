@@ -1,4 +1,9 @@
 class ArticlesController < ApplicationController
+   #edit a single article
+   def edit
+      @article=Article.find(params[:article]) 
+   end
+   
    #retrieve all articles in the db
    def index
       @articles = Article.all
