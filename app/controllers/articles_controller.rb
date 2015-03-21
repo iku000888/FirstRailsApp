@@ -1,6 +1,6 @@
 class ArticlesController < ApplicationController
    #retrieve all articles in the db
-   def show
+   def index
       @articles = Article.all
    end
 
